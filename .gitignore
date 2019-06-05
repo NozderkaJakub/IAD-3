@@ -1,0 +1,12 @@
+bin/
+.settings/
+*.zip
+*.txt
+.classpath
+.project
+.idea
+centra
+ponts.txt
+output.gif
+IAD-2.iml
+/out
