@@ -1,5 +1,5 @@
 # IAD-3
-Sieć neuronowa o architekturze RBF ze zmienną liczbą neuronów radialnych, która aproksymuje podane w pliku "train.txt" punkty na płaszczyźnie.
+Sieć neuronowa o architekturze RBF ze zmienną liczbą neuronów radialnych, która aproksymuje podane w pliku tekstowym punkty na płaszczyźnie dwuwymiarowej.
 
 W pliku "train.txt" umieszczamy punkty do trenowania sieci, zaś w pliku "test.txt" punkty do zaproksymowania w formacie "x y", każda para w oddzielnej linii.
 Składnia polecenia uruchamiającego rysowanie wykresu:
