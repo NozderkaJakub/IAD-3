@@ -8,6 +8,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		Program program = new Program(41);
 		
-		program.algorithm();
+		program.train();
+		program.approximate();
 	}
 }

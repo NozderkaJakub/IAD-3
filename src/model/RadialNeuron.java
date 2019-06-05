@@ -11,10 +11,10 @@ public class RadialNeuron {
 	double sigma;
 	public int number;
 
-	public RadialNeuron() {
+	public RadialNeuron(int number) {
 		this.pattern = 0;
 		this.sigma = 0;
-		this.number = 0;
+		this.number = number;
 	}
 
 	public void setNumber(int number) {

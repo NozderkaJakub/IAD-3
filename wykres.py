@@ -20,7 +20,16 @@ with open(sys.argv[3] + ".txt",'r') as csvfile:
     for row in plots:
         x.append(float(row[0]))
         y.append(float(row[1]))
-plt.scatter(x, y, c='g', zorder = 1)
+plt.scatter(x, y, c='g', s=3, zorder = 1)
+x = []
+y = []
+
+with open(sys.argv[4] + ".txt",'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=' ')
+    for row in plots:
+        x.append(float(row[0]))
+        y.append(float(row[1]))
+plt.scatter(x, y, c='dodgerblue', s=3, zorder = 1)
 x = []
 y = []
 
