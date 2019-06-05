@@ -5,7 +5,7 @@ import csv
 x = []
 y = []
 
-for i in range(1, int(sys.argv[2] + 1)):
+for i in range(1, (int(sys.argv[2]) + 1)):
     with open(sys.argv[1] + str(i) + ".txt",'r') as csvfile:
         plots = csv.reader(csvfile, delimiter=';')
         for row in plots:

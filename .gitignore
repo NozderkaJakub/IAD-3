@@ -2,5 +2,6 @@ bin/
 .settings/
 *.zip
 *.txt
+*.png
 .classpath
 .project

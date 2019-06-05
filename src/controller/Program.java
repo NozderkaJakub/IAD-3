@@ -110,7 +110,8 @@ public class Program {
 				linear.setWeight(i, (linear.getWeight(i) - alpha * derivativeWeights.get(i)));
 			}
 			iterator++;
-		} while (error > 0.07);
+//		} while (error > 0.07);
+		} while (iterator < 20000);
 		
 		for (int i = 0; i < points.length; i++) {
 			for (int j = 0; j < radial.size(); j++) {
